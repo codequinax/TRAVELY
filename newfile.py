@@ -4,7 +4,7 @@ import subprocess
 import sys
 import os
 # Configure Google Generative AI
-genai.configure(api_key="AIzaSyAhqhtFuk11c7uJSRgvEEHElOfrmzsr_tw")  # Replace with your actual API key
+genai.configure(api_key="your api key")  # Replace with your actual API key
 generation_config = {
     "temperature": 1,
     "top_p": 0.95,
