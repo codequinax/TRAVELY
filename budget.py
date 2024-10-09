@@ -72,7 +72,7 @@ def get_places():
         return
 
     budget = int(budget)
-    genai.configure(api_key="AIzaSyAhqhtFuk11c7uJSRgvEEHElOfrmzsr_tw")
+    genai.configure(api_key="your api key")
     generation_config = {
         "temperature": 1,
         "top_p": 0.95,
